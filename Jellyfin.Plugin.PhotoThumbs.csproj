@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Jellyfin.Plugin.PhotoThumbs</RootNamespace>
+    <AssemblyName>Jellyfin.Plugin.PhotoThumbs</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <!-- Compilado contra las DLLs del servidor instalado (Jellyfin 12.1) -->
+  <ItemGroup>
+    <Reference Include="D:\Jellyfin\Server\MediaBrowser.Controller.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="D:\Jellyfin\Server\MediaBrowser.Common.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="D:\Jellyfin\Server\MediaBrowser.Model.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="D:\Jellyfin\Server\Jellyfin.Data.dll">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\configPage.html" />
+  </ItemGroup>
+
+</Project>
