@@ -1,0 +1,16 @@
+name: "Photo Thumbnails"
+guid: "c62e1a4b-5f7d-4e9a-8b3c-6d2f9a1e7b05"
+version: "1.0.0.0"
+targetAbi: "12.1.0.0"
+framework: "net10.0"
+owner: "NeN"
+overview: "Portadas para carpetas con fotos y miniaturas pre-generadas."
+description: >
+  Tras cada escaneo (y con una tarea programada) asigna a cada carpeta/álbum
+  con fotos una portada: collage de hasta 4 fotos via IImageProcessor, o la
+  primera foto si hay pocas. Opcionalmente pre-genera las miniaturas en caché.
+category: "General"
+artifacts:
+  - "Jellyfin.Plugin.PhotoThumbs.dll"
+changelog: |-
+  - Versión inicial
