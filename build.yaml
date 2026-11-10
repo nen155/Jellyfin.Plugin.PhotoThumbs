@@ -1,5 +1,7 @@
 name: "Photo Thumbnails"
 guid: "c62e1a4b-5f7d-4e9a-8b3c-6d2f9a1e7b05"
+image: "logo.png"
+imageUrl: "https://raw.githubusercontent.com/nen155/Jellyfin.Plugin.PhotoThumbs/main/logo.png"
 version: "1.0.0.0"
 targetAbi: "12.1.0.0"
 framework: "net10.0"

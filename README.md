@@ -1,5 +1,9 @@
 # Jellyfin.Plugin.PhotoThumbs
 
+<p align="center">
+  <img src="logo.png" alt="Logo de Photo Thumbnails" width="180">
+</p>
+
 Plugin para **Jellyfin** que mejora la previsualización de las carpetas de
 fotos: genera **portadas (collages)** para las carpetas que contienen fotos y
 **pre-genera miniaturas** de cada imagen para que la galería cargue al
